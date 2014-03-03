@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0019A53218C44C2E00C4C03F /* libios_ngn_stack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52318C44C2E00C4C03F /* libios_ngn_stack.a */; };
+		0019A53318C44C2E00C4C03F /* libtinyDAV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52418C44C2E00C4C03F /* libtinyDAV.a */; };
+		0019A53418C44C2E00C4C03F /* libtinyHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52518C44C2E00C4C03F /* libtinyHTTP.a */; };
+		0019A53518C44C2E00C4C03F /* libtinyIPSec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52618C44C2E00C4C03F /* libtinyIPSec.a */; };
+		0019A53618C44C2E00C4C03F /* libtinyMEDIA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52718C44C2E00C4C03F /* libtinyMEDIA.a */; };
+		0019A53718C44C2E00C4C03F /* libtinyMSRP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52818C44C2E00C4C03F /* libtinyMSRP.a */; };
+		0019A53818C44C2E00C4C03F /* libtinyNET.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52918C44C2E00C4C03F /* libtinyNET.a */; };
+		0019A53918C44C2E00C4C03F /* libtinyRTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52A18C44C2E00C4C03F /* libtinyRTP.a */; };
+		0019A53A18C44C2E00C4C03F /* libtinySAK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52B18C44C2E00C4C03F /* libtinySAK.a */; };
+		0019A53B18C44C2E00C4C03F /* libtinySDP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52C18C44C2E00C4C03F /* libtinySDP.a */; };
+		0019A53C18C44C2E00C4C03F /* libtinySIGCOMP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52D18C44C2E00C4C03F /* libtinySIGCOMP.a */; };
+		0019A53D18C44C2E00C4C03F /* libtinySIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52E18C44C2E00C4C03F /* libtinySIP.a */; };
+		0019A53E18C44C2E00C4C03F /* libtinySMS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52F18C44C2E00C4C03F /* libtinySMS.a */; };
+		0019A53F18C44C2E00C4C03F /* libtinyWRAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A53018C44C2E00C4C03F /* libtinyWRAP.a */; };
+		0019A54018C44C2E00C4C03F /* libtinyXCAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A53118C44C2E00C4C03F /* libtinyXCAP.a */; };
 		00327D3618C42EB400FAC905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3518C42EB400FAC905 /* Foundation.framework */; };
 		00327D3818C42EB400FAC905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3718C42EB400FAC905 /* CoreGraphics.framework */; };
 		00327D3A18C42EB400FAC905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3918C42EB400FAC905 /* UIKit.framework */; };
@@ -34,6 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0019A52318C44C2E00C4C03F /* libios_ngn_stack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libios_ngn_stack.a; sourceTree = "<group>"; };
+		0019A52418C44C2E00C4C03F /* libtinyDAV.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyDAV.a; sourceTree = "<group>"; };
+		0019A52518C44C2E00C4C03F /* libtinyHTTP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyHTTP.a; sourceTree = "<group>"; };
+		0019A52618C44C2E00C4C03F /* libtinyIPSec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyIPSec.a; sourceTree = "<group>"; };
+		0019A52718C44C2E00C4C03F /* libtinyMEDIA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyMEDIA.a; sourceTree = "<group>"; };
+		0019A52818C44C2E00C4C03F /* libtinyMSRP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyMSRP.a; sourceTree = "<group>"; };
+		0019A52918C44C2E00C4C03F /* libtinyNET.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyNET.a; sourceTree = "<group>"; };
+		0019A52A18C44C2E00C4C03F /* libtinyRTP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyRTP.a; sourceTree = "<group>"; };
+		0019A52B18C44C2E00C4C03F /* libtinySAK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinySAK.a; sourceTree = "<group>"; };
+		0019A52C18C44C2E00C4C03F /* libtinySDP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinySDP.a; sourceTree = "<group>"; };
+		0019A52D18C44C2E00C4C03F /* libtinySIGCOMP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinySIGCOMP.a; sourceTree = "<group>"; };
+		0019A52E18C44C2E00C4C03F /* libtinySIP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinySIP.a; sourceTree = "<group>"; };
+		0019A52F18C44C2E00C4C03F /* libtinySMS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinySMS.a; sourceTree = "<group>"; };
+		0019A53018C44C2E00C4C03F /* libtinyWRAP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyWRAP.a; sourceTree = "<group>"; };
+		0019A53118C44C2E00C4C03F /* libtinyXCAP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyXCAP.a; sourceTree = "<group>"; };
 		00327D3218C42EB400FAC905 /* TTTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00327D3518C42EB400FAC905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00327D3718C42EB400FAC905 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +90,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0019A53C18C44C2E00C4C03F /* libtinySIGCOMP.a in Frameworks */,
+				0019A53F18C44C2E00C4C03F /* libtinyWRAP.a in Frameworks */,
+				0019A53D18C44C2E00C4C03F /* libtinySIP.a in Frameworks */,
+				0019A53618C44C2E00C4C03F /* libtinyMEDIA.a in Frameworks */,
+				0019A53A18C44C2E00C4C03F /* libtinySAK.a in Frameworks */,
+				0019A53718C44C2E00C4C03F /* libtinyMSRP.a in Frameworks */,
+				0019A53518C44C2E00C4C03F /* libtinyIPSec.a in Frameworks */,
 				00327D3818C42EB400FAC905 /* CoreGraphics.framework in Frameworks */,
+				0019A53418C44C2E00C4C03F /* libtinyHTTP.a in Frameworks */,
+				0019A53318C44C2E00C4C03F /* libtinyDAV.a in Frameworks */,
+				0019A53E18C44C2E00C4C03F /* libtinySMS.a in Frameworks */,
+				0019A53B18C44C2E00C4C03F /* libtinySDP.a in Frameworks */,
+				0019A53918C44C2E00C4C03F /* libtinyRTP.a in Frameworks */,
+				0019A54018C44C2E00C4C03F /* libtinyXCAP.a in Frameworks */,
 				00327D3A18C42EB400FAC905 /* UIKit.framework in Frameworks */,
+				0019A53218C44C2E00C4C03F /* libios_ngn_stack.a in Frameworks */,
 				00327D3618C42EB400FAC905 /* Foundation.framework in Frameworks */,
+				0019A53818C44C2E00C4C03F /* libtinyNET.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +124,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0019A52218C44C2E00C4C03F /* 模拟器静态库 */ = {
+			isa = PBXGroup;
+			children = (
+				0019A52318C44C2E00C4C03F /* libios_ngn_stack.a */,
+				0019A52418C44C2E00C4C03F /* libtinyDAV.a */,
+				0019A52518C44C2E00C4C03F /* libtinyHTTP.a */,
+				0019A52618C44C2E00C4C03F /* libtinyIPSec.a */,
+				0019A52718C44C2E00C4C03F /* libtinyMEDIA.a */,
+				0019A52818C44C2E00C4C03F /* libtinyMSRP.a */,
+				0019A52918C44C2E00C4C03F /* libtinyNET.a */,
+				0019A52A18C44C2E00C4C03F /* libtinyRTP.a */,
+				0019A52B18C44C2E00C4C03F /* libtinySAK.a */,
+				0019A52C18C44C2E00C4C03F /* libtinySDP.a */,
+				0019A52D18C44C2E00C4C03F /* libtinySIGCOMP.a */,
+				0019A52E18C44C2E00C4C03F /* libtinySIP.a */,
+				0019A52F18C44C2E00C4C03F /* libtinySMS.a */,
+				0019A53018C44C2E00C4C03F /* libtinyWRAP.a */,
+				0019A53118C44C2E00C4C03F /* libtinyXCAP.a */,
+			);
+			path = "模拟器静态库";
+			sourceTree = "<group>";
+		};
 		00327D2918C42EB400FAC905 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +184,7 @@
 				00327D4718C42EB400FAC905 /* Main.storyboard */,
 				00327D4A18C42EB400FAC905 /* ViewController.h */,
 				00327D4B18C42EB400FAC905 /* ViewController.m */,
+				0019A52218C44C2E00C4C03F /* 模拟器静态库 */,
 				00327D4D18C42EB400FAC905 /* Images.xcassets */,
 				00327D3C18C42EB400FAC905 /* Supporting Files */,
 			);
@@ -381,6 +449,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTTTT/TTTTT-Prefix.pch";
 				INFOPLIST_FILE = "TTTTT/TTTTT-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhangyihui/Desktop/develop-zhangyihui/TTTTT/TTTTT/模拟器静态库",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +466,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTTTT/TTTTT-Prefix.pch";
 				INFOPLIST_FILE = "TTTTT/TTTTT-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhangyihui/Desktop/develop-zhangyihui/TTTTT/TTTTT/模拟器静态库",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +536,7 @@
 				00327D6618C42EB400FAC905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00327D6718C42EB400FAC905 /* Build configuration list for PBXNativeTarget "TTTTTTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +545,7 @@
 				00327D6918C42EB400FAC905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
