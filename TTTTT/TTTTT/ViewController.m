@@ -20,6 +20,17 @@
     
     
     [self.view setBackgroundColor:[UIColor redColor]];
+    
+    
+    NSString *strURL = @"http://www.baidu.com";
+    
+    double delayInSeconds = 2.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        
+        NSLog(@"strURL is %@",strURL);
+        
+    });
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
