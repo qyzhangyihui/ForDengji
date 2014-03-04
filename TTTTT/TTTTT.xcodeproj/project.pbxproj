@@ -22,6 +22,11 @@
 		0019A53E18C44C2E00C4C03F /* libtinySMS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52F18C44C2E00C4C03F /* libtinySMS.a */; };
 		0019A53F18C44C2E00C4C03F /* libtinyWRAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A53018C44C2E00C4C03F /* libtinyWRAP.a */; };
 		0019A54018C44C2E00C4C03F /* libtinyXCAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A53118C44C2E00C4C03F /* libtinyXCAP.a */; };
+		001E813718C574320099F22E /* 笔记-色块区-右箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813518C574320099F22E /* 笔记-色块区-右箭头.png */; };
+		001E813818C574320099F22E /* 笔记-色块区-左箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813618C574320099F22E /* 笔记-色块区-左箭头.png */; };
+		001E813A18C578E10099F22E /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813918C578E10099F22E /* thumb.png */; };
+		001E813D18C5795E0099F22E /* slider_maximum.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813B18C5795E0099F22E /* slider_maximum.png */; };
+		001E813E18C5795E0099F22E /* slider_minimum.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813C18C5795E0099F22E /* slider_minimum.png */; };
 		00327D3618C42EB400FAC905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3518C42EB400FAC905 /* Foundation.framework */; };
 		00327D3818C42EB400FAC905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3718C42EB400FAC905 /* CoreGraphics.framework */; };
 		00327D3A18C42EB400FAC905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3918C42EB400FAC905 /* UIKit.framework */; };
@@ -64,6 +69,11 @@
 		0019A52F18C44C2E00C4C03F /* libtinySMS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinySMS.a; sourceTree = "<group>"; };
 		0019A53018C44C2E00C4C03F /* libtinyWRAP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyWRAP.a; sourceTree = "<group>"; };
 		0019A53118C44C2E00C4C03F /* libtinyXCAP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyXCAP.a; sourceTree = "<group>"; };
+		001E813518C574320099F22E /* 笔记-色块区-右箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔记-色块区-右箭头.png"; sourceTree = "<group>"; };
+		001E813618C574320099F22E /* 笔记-色块区-左箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔记-色块区-左箭头.png"; sourceTree = "<group>"; };
+		001E813918C578E10099F22E /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		001E813B18C5795E0099F22E /* slider_maximum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_maximum.png; sourceTree = "<group>"; };
+		001E813C18C5795E0099F22E /* slider_minimum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_minimum.png; sourceTree = "<group>"; };
 		00327D3218C42EB400FAC905 /* TTTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00327D3518C42EB400FAC905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00327D3718C42EB400FAC905 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -194,6 +204,11 @@
 		00327D3C18C42EB400FAC905 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				001E813518C574320099F22E /* 笔记-色块区-右箭头.png */,
+				001E813618C574320099F22E /* 笔记-色块区-左箭头.png */,
+				001E813B18C5795E0099F22E /* slider_maximum.png */,
+				001E813C18C5795E0099F22E /* slider_minimum.png */,
+				001E813918C578E10099F22E /* thumb.png */,
 				00327D3D18C42EB400FAC905 /* TTTTT-Info.plist */,
 				00327D3E18C42EB400FAC905 /* InfoPlist.strings */,
 				00327D4118C42EB400FAC905 /* main.m */,
@@ -298,6 +313,11 @@
 			files = (
 				00327D4E18C42EB400FAC905 /* Images.xcassets in Resources */,
 				00327D4018C42EB400FAC905 /* InfoPlist.strings in Resources */,
+				001E813A18C578E10099F22E /* thumb.png in Resources */,
+				001E813E18C5795E0099F22E /* slider_minimum.png in Resources */,
+				001E813818C574320099F22E /* 笔记-色块区-左箭头.png in Resources */,
+				001E813D18C5795E0099F22E /* slider_maximum.png in Resources */,
+				001E813718C574320099F22E /* 笔记-色块区-右箭头.png in Resources */,
 				00327D4918C42EB400FAC905 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

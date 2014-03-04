@@ -19,12 +19,28 @@
     [super viewDidLoad];
     
     
-    [self.view setBackgroundColor:[UIColor redColor]];
     
     
     NSLog(@"abc");
     NSLog(@"ef");
     NSLog(@"kkkk");
+    
+    UIImage *minImage = [[UIImage imageNamed:@"slider_minimum"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, 0, 0)];
+    UIImage *maxImage = [[UIImage imageNamed:@"slider_maximum"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, 0, 0)];
+    UIImage *thumbImage = [UIImage imageNamed:@"thumb"];
+    
+    
+    UISlider *slider = [[UISlider alloc]initWithFrame:CGRectMake(0, 200, 100, 10)];
+    slider.backgroundColor = [UIColor redColor];
+    [slider setMaximumTrackImage:maxImage forState:UIControlStateNormal];
+    [slider setMinimumTrackImage:minImage forState:UIControlStateNormal];
+    [slider setThumbImage:thumbImage forState:UIControlStateNormal];
+    [self.view addSubview:slider];
+//    
+//    [[UISlider appearance] setMaximumTrackImage:maxImage forState:UIControlStateNormal];
+//    [[UISlider appearance] setMinimumTrackImage:minImage forState:UIControlStateNormal];
+//    [[UISlider appearance] setThumbImage:thumbImage forState:UIControlStateNormal];
+
     
     NSString *strURL = @"http://www.baidu.com";
     
