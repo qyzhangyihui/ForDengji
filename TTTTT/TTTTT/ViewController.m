@@ -24,6 +24,7 @@
     
     NSLog(@"abc");
     NSLog(@"ef");
+    NSLog(@"kkkk");
     
     NSString *strURL = @"http://www.baidu.com";
     
