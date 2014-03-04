@@ -22,6 +22,8 @@
     [self.view setBackgroundColor:[UIColor redColor]];
     
     
+    NSLog(@"abc");
+    
     NSString *strURL = @"http://www.baidu.com";
     
     double delayInSeconds = 2.0;
