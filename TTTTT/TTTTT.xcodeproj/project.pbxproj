@@ -22,6 +22,9 @@
 		0019A53E18C44C2E00C4C03F /* libtinySMS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A52F18C44C2E00C4C03F /* libtinySMS.a */; };
 		0019A53F18C44C2E00C4C03F /* libtinyWRAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A53018C44C2E00C4C03F /* libtinyWRAP.a */; };
 		0019A54018C44C2E00C4C03F /* libtinyXCAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0019A53118C44C2E00C4C03F /* libtinyXCAP.a */; };
+		001C3F6418C5D93F0010B120 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C3F6218C5D93F0010B120 /* NextViewController.m */; };
+		001C3F6518C5D93F0010B120 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001C3F6318C5D93F0010B120 /* NextViewController.xib */; };
+		001C3F6718C5DA3A0010B120 /* 画板涂鸦-画笔2.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C3F6618C5DA3A0010B120 /* 画板涂鸦-画笔2.png */; };
 		001E813718C574320099F22E /* 笔记-色块区-右箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813518C574320099F22E /* 笔记-色块区-右箭头.png */; };
 		001E813818C574320099F22E /* 笔记-色块区-左箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813618C574320099F22E /* 笔记-色块区-左箭头.png */; };
 		001E813A18C578E10099F22E /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813918C578E10099F22E /* thumb.png */; };
@@ -41,6 +44,9 @@
 		00327D5718C42EB400FAC905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3918C42EB400FAC905 /* UIKit.framework */; };
 		00327D5F18C42EB400FAC905 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00327D5D18C42EB400FAC905 /* InfoPlist.strings */; };
 		00327D6118C42EB400FAC905 /* TTTTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00327D6018C42EB400FAC905 /* TTTTTTests.m */; };
+		0093CC4B18C6C37F0058DC9C /* TextObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093CC4A18C6C37F0058DC9C /* TextObject.m */; };
+		0093CC4D18C6C8750058DC9C /* eagle0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0093CC4C18C6C8750058DC9C /* eagle0.png */; };
+		0093CC5018C6D6150058DC9C /* EGRichLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093CC4F18C6D6150058DC9C /* EGRichLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +75,10 @@
 		0019A52F18C44C2E00C4C03F /* libtinySMS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinySMS.a; sourceTree = "<group>"; };
 		0019A53018C44C2E00C4C03F /* libtinyWRAP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyWRAP.a; sourceTree = "<group>"; };
 		0019A53118C44C2E00C4C03F /* libtinyXCAP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtinyXCAP.a; sourceTree = "<group>"; };
+		001C3F6118C5D93F0010B120 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		001C3F6218C5D93F0010B120 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		001C3F6318C5D93F0010B120 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		001C3F6618C5DA3A0010B120 /* 画板涂鸦-画笔2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "画板涂鸦-画笔2.png"; sourceTree = "<group>"; };
 		001E813518C574320099F22E /* 笔记-色块区-右箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔记-色块区-右箭头.png"; sourceTree = "<group>"; };
 		001E813618C574320099F22E /* 笔记-色块区-左箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔记-色块区-左箭头.png"; sourceTree = "<group>"; };
 		001E813918C578E10099F22E /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
@@ -93,6 +103,11 @@
 		00327D5C18C42EB400FAC905 /* TTTTTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTTTTTests-Info.plist"; sourceTree = "<group>"; };
 		00327D5E18C42EB400FAC905 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00327D6018C42EB400FAC905 /* TTTTTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTTTTests.m; sourceTree = "<group>"; };
+		0093CC4918C6C37F0058DC9C /* TextObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextObject.h; sourceTree = "<group>"; };
+		0093CC4A18C6C37F0058DC9C /* TextObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextObject.m; sourceTree = "<group>"; };
+		0093CC4C18C6C8750058DC9C /* eagle0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eagle0.png; sourceTree = "<group>"; };
+		0093CC4E18C6D6150058DC9C /* EGRichLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGRichLabel.h; sourceTree = "<group>"; };
+		0093CC4F18C6D6150058DC9C /* EGRichLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGRichLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +209,13 @@
 				00327D4718C42EB400FAC905 /* Main.storyboard */,
 				00327D4A18C42EB400FAC905 /* ViewController.h */,
 				00327D4B18C42EB400FAC905 /* ViewController.m */,
+				001C3F6118C5D93F0010B120 /* NextViewController.h */,
+				001C3F6218C5D93F0010B120 /* NextViewController.m */,
+				0093CC4918C6C37F0058DC9C /* TextObject.h */,
+				0093CC4A18C6C37F0058DC9C /* TextObject.m */,
+				0093CC4E18C6D6150058DC9C /* EGRichLabel.h */,
+				0093CC4F18C6D6150058DC9C /* EGRichLabel.m */,
+				001C3F6318C5D93F0010B120 /* NextViewController.xib */,
 				0019A52218C44C2E00C4C03F /* 模拟器静态库 */,
 				00327D4D18C42EB400FAC905 /* Images.xcassets */,
 				00327D3C18C42EB400FAC905 /* Supporting Files */,
@@ -204,9 +226,11 @@
 		00327D3C18C42EB400FAC905 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0093CC4C18C6C8750058DC9C /* eagle0.png */,
 				001E813518C574320099F22E /* 笔记-色块区-右箭头.png */,
 				001E813618C574320099F22E /* 笔记-色块区-左箭头.png */,
 				001E813B18C5795E0099F22E /* slider_maximum.png */,
+				001C3F6618C5DA3A0010B120 /* 画板涂鸦-画笔2.png */,
 				001E813C18C5795E0099F22E /* slider_minimum.png */,
 				001E813918C578E10099F22E /* thumb.png */,
 				00327D3D18C42EB400FAC905 /* TTTTT-Info.plist */,
@@ -316,8 +340,11 @@
 				001E813A18C578E10099F22E /* thumb.png in Resources */,
 				001E813E18C5795E0099F22E /* slider_minimum.png in Resources */,
 				001E813818C574320099F22E /* 笔记-色块区-左箭头.png in Resources */,
+				001C3F6718C5DA3A0010B120 /* 画板涂鸦-画笔2.png in Resources */,
 				001E813D18C5795E0099F22E /* slider_maximum.png in Resources */,
+				001C3F6518C5D93F0010B120 /* NextViewController.xib in Resources */,
 				001E813718C574320099F22E /* 笔记-色块区-右箭头.png in Resources */,
+				0093CC4D18C6C8750058DC9C /* eagle0.png in Resources */,
 				00327D4918C42EB400FAC905 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,7 +365,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				00327D4C18C42EB400FAC905 /* ViewController.m in Sources */,
+				0093CC4B18C6C37F0058DC9C /* TextObject.m in Sources */,
+				001C3F6418C5D93F0010B120 /* NextViewController.m in Sources */,
 				00327D4618C42EB400FAC905 /* AppDelegate.m in Sources */,
+				0093CC5018C6D6150058DC9C /* EGRichLabel.m in Sources */,
 				00327D4218C42EB400FAC905 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +499,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTTTT/TTTTT-Prefix.pch";
 				INFOPLIST_FILE = "TTTTT/TTTTT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/TTTTT/模拟器静态库\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -483,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTTTT/TTTTT-Prefix.pch";
 				INFOPLIST_FILE = "TTTTT/TTTTT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/TTTTT/模拟器静态库\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
