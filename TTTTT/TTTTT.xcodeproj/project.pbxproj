@@ -30,6 +30,8 @@
 		001E813A18C578E10099F22E /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813918C578E10099F22E /* thumb.png */; };
 		001E813D18C5795E0099F22E /* slider_maximum.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813B18C5795E0099F22E /* slider_maximum.png */; };
 		001E813E18C5795E0099F22E /* slider_minimum.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E813C18C5795E0099F22E /* slider_minimum.png */; };
+		001E8C7418C95659005EC6C4 /* EGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E8C7318C95659005EC6C4 /* EGTextView.m */; };
+		001E8C7618C966DA005EC6C4 /* comment_input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001E8C7518C966DA005EC6C4 /* comment_input@2x.png */; };
 		00327D3618C42EB400FAC905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3518C42EB400FAC905 /* Foundation.framework */; };
 		00327D3818C42EB400FAC905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3718C42EB400FAC905 /* CoreGraphics.framework */; };
 		00327D3A18C42EB400FAC905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00327D3918C42EB400FAC905 /* UIKit.framework */; };
@@ -84,6 +86,9 @@
 		001E813918C578E10099F22E /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
 		001E813B18C5795E0099F22E /* slider_maximum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_maximum.png; sourceTree = "<group>"; };
 		001E813C18C5795E0099F22E /* slider_minimum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_minimum.png; sourceTree = "<group>"; };
+		001E8C7218C95659005EC6C4 /* EGTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGTextView.h; sourceTree = "<group>"; };
+		001E8C7318C95659005EC6C4 /* EGTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGTextView.m; sourceTree = "<group>"; };
+		001E8C7518C966DA005EC6C4 /* comment_input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment_input@2x.png"; sourceTree = "<group>"; };
 		00327D3218C42EB400FAC905 /* TTTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00327D3518C42EB400FAC905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00327D3718C42EB400FAC905 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -209,6 +214,8 @@
 				00327D4718C42EB400FAC905 /* Main.storyboard */,
 				00327D4A18C42EB400FAC905 /* ViewController.h */,
 				00327D4B18C42EB400FAC905 /* ViewController.m */,
+				001E8C7218C95659005EC6C4 /* EGTextView.h */,
+				001E8C7318C95659005EC6C4 /* EGTextView.m */,
 				001C3F6118C5D93F0010B120 /* NextViewController.h */,
 				001C3F6218C5D93F0010B120 /* NextViewController.m */,
 				0093CC4918C6C37F0058DC9C /* TextObject.h */,
@@ -226,6 +233,7 @@
 		00327D3C18C42EB400FAC905 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				001E8C7518C966DA005EC6C4 /* comment_input@2x.png */,
 				0093CC4C18C6C8750058DC9C /* eagle0.png */,
 				001E813518C574320099F22E /* 笔记-色块区-右箭头.png */,
 				001E813618C574320099F22E /* 笔记-色块区-左箭头.png */,
@@ -346,6 +354,7 @@
 				001E813718C574320099F22E /* 笔记-色块区-右箭头.png in Resources */,
 				0093CC4D18C6C8750058DC9C /* eagle0.png in Resources */,
 				00327D4918C42EB400FAC905 /* Main.storyboard in Resources */,
+				001E8C7618C966DA005EC6C4 /* comment_input@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +379,7 @@
 				00327D4618C42EB400FAC905 /* AppDelegate.m in Sources */,
 				0093CC5018C6D6150058DC9C /* EGRichLabel.m in Sources */,
 				00327D4218C42EB400FAC905 /* main.m in Sources */,
+				001E8C7418C95659005EC6C4 /* EGTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

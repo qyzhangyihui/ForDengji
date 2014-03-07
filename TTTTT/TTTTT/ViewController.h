@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "EGTextView.h"
+@interface ViewController : UIViewController<EGTextViewDelegate>
+{
+    
+}
+@property (weak, nonatomic) IBOutlet UIView *toolbar;
+@property (weak, nonatomic) IBOutlet UIImageView *inputImageView;
+@property (weak, nonatomic) IBOutlet EGTextView *textView;
 
 @end

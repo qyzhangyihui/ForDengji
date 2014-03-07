@@ -17,10 +17,35 @@
 
 @implementation ViewController
 
+
+-(void)textChangeWithFrame:(CGRect)rect{
+
+    
+    NSLog(@"abc");
+    
+
+     self.toolbar.frame = CGRectMake(self.toolbar.frame.origin.x,self.toolbar.frame.origin.y, self.toolbar.frame.size.width, 8 + rect.size.height);
+    
+    self.inputImageView.frame = CGRectMake(rect.origin.x-2, rect.origin.y-2, rect.size.width+4, rect.size.height+4);
+    
+    
+    
+    self.textView.frame = rect;
+
+    
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     
+    
+    UIImage *image = [UIImage imageNamed:@"comment_input.png"];
+    image = [image stretchableImageWithLeftCapWidth:15 topCapHeight:15];
+    self.inputImageView.image = image;
+    
+    
+    /*
     
     NSString *string = @"我@章诒和 们到http://www.baidu.com底是为99999999什么呢？到底@张伊辉 是干什么呢？[微笑][微笑][微笑][微笑][微笑]索科特拉岛特有的龙血树 索科特拉岛（Socotra）距阿拉伯半岛350公里，是印度洋的一颗明珠，也有人叫它极乐岛。岛如其名，在岛上，人们";
     NSMutableArray *muArr =  [TextObject getTextObjectArrayFrom:string];
@@ -57,6 +82,8 @@
         }
         
     }
+    
+    */
     /*
     
     NSLog(@"abc");
@@ -91,6 +118,8 @@
     });
     
     */
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
