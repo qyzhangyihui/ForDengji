@@ -21,7 +21,7 @@
 -(void)textChangeWithFrame:(CGRect)rect{
 
     
-    NSLog(@"abc");
+    NSLog(@"abc111111111111");
     
 
      self.toolbar.frame = CGRectMake(self.toolbar.frame.origin.x,self.toolbar.frame.origin.y, self.toolbar.frame.size.width, 8 + rect.size.height);
