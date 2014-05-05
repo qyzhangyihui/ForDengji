@@ -12,7 +12,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    
+
+	NSLog(@"test");    
     /**
      *  add smothing
      */
