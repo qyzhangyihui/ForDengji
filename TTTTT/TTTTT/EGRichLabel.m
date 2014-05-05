@@ -15,6 +15,12 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        
+        
+        /**
+         *  add smothing
+         */
+        
     }
     return self;
 }
