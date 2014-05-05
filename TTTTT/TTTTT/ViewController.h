@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "EGTextView.h"
-@interface ViewController : UIViewController<EGTextViewDelegate>
+@interface ViewController : UIViewController
 {
     
 }
