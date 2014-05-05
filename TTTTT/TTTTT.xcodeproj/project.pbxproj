@@ -109,13 +109,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0019A52218C44C2E00C4C03F /* 模拟器静态库 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "模拟器静态库";
-			sourceTree = "<group>";
-		};
 		00327D2918C42EB400FAC905 = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +156,6 @@
 				0093CC4E18C6D6150058DC9C /* EGRichLabel.h */,
 				0093CC4F18C6D6150058DC9C /* EGRichLabel.m */,
 				001C3F6318C5D93F0010B120 /* NextViewController.xib */,
-				0019A52218C44C2E00C4C03F /* 模拟器静态库 */,
 				00327D4D18C42EB400FAC905 /* Images.xcassets */,
 				00327D3C18C42EB400FAC905 /* Supporting Files */,
 			);
