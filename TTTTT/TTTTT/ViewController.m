@@ -20,10 +20,8 @@
 
 -(void)textChangeWithFrame:(CGRect)rect{
 
+   
     
-    NSLog(@"abc");
-    
-
      self.toolbar.frame = CGRectMake(self.toolbar.frame.origin.x,self.toolbar.frame.origin.y, self.toolbar.frame.size.width, 8 + rect.size.height);
     
     self.inputImageView.frame = CGRectMake(rect.origin.x-2, rect.origin.y-2, rect.size.width+4, rect.size.height+4);

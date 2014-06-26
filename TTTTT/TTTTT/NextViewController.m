@@ -29,7 +29,7 @@
     
     
     
-    
+    /*
     for (int i = 0; i<100; i++) {
         UIImage *minImage = [[UIImage imageNamed:@"slider_minimum"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, 0, 0)];
         UIImage *maxImage = [[UIImage imageNamed:@"slider_maximum"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, 0, 0)];
@@ -43,6 +43,7 @@
         [slider setThumbImage:thumbImage forState:UIControlStateNormal];
         [self.view addSubview:slider];
     }
+     */
     // Do any additional setup after loading the view from its nib.
 }
 

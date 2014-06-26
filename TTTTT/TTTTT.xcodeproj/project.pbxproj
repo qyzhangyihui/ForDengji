@@ -34,6 +34,7 @@
 		0093CC4B18C6C37F0058DC9C /* TextObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093CC4A18C6C37F0058DC9C /* TextObject.m */; };
 		0093CC4D18C6C8750058DC9C /* eagle0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0093CC4C18C6C8750058DC9C /* eagle0.png */; };
 		0093CC5018C6D6150058DC9C /* EGRichLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093CC4F18C6D6150058DC9C /* EGRichLabel.m */; };
+		00C17C11195BFB28002ED6BC /* 07-3学生端－选择老师－老师详细资料＋确认选择.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C17C10195BFB28002ED6BC /* 07-3学生端－选择老师－老师详细资料＋确认选择.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		0093CC4C18C6C8750058DC9C /* eagle0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eagle0.png; sourceTree = "<group>"; };
 		0093CC4E18C6D6150058DC9C /* EGRichLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGRichLabel.h; sourceTree = "<group>"; };
 		0093CC4F18C6D6150058DC9C /* EGRichLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGRichLabel.m; sourceTree = "<group>"; };
+		00C17C10195BFB28002ED6BC /* 07-3学生端－选择老师－老师详细资料＋确认选择.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-3学生端－选择老师－老师详细资料＋确认选择.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		00327D3C18C42EB400FAC905 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00C17C10195BFB28002ED6BC /* 07-3学生端－选择老师－老师详细资料＋确认选择.png */,
 				001E8C7518C966DA005EC6C4 /* comment_input@2x.png */,
 				0093CC4C18C6C8750058DC9C /* eagle0.png */,
 				001E813518C574320099F22E /* 笔记-色块区-右箭头.png */,
@@ -286,6 +289,7 @@
 				001E813718C574320099F22E /* 笔记-色块区-右箭头.png in Resources */,
 				0093CC4D18C6C8750058DC9C /* eagle0.png in Resources */,
 				00327D4918C42EB400FAC905 /* Main.storyboard in Resources */,
+				00C17C11195BFB28002ED6BC /* 07-3学生端－选择老师－老师详细资料＋确认选择.png in Resources */,
 				001E8C7618C966DA005EC6C4 /* comment_input@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
